@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<consultas>
+  <consulta>
+    <id_paciente>1</id_paciente>
+    <nome>Maria Silva</nome>
+    <nif>1234567890</nif>
+    <telefone>912345678</telefone>
+    <email>Maria.silva@example.com</email>
+    <data_consulta>2025-09-10</data_consulta>
+    <especialidade>Cardiologia</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>2</id_paciente>
+    <nome>João Costa</nome>
+    <nif>987654321</nif>
+    <telefone>913456789</telefone>
+    <email>joao.costa@example.com</email>
+    <data_consulta>2025-09-12</data_consulta>
+    <especialidade>Neurologia</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>3</id_paciente>
+    <nome>Ana Pereira</nome>
+    <nif>111222333</nif>
+    <telefone>514567890</telefone>
+    <email>ana.pereira@Example.com</email>
+    <data_consulta>2025-09-15</data_consulta>
+    <especialidade>Pediatria</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>4</id_paciente>
+    <nome>Carlos Mendes</nome>
+    <nif>44455666</nif>
+    <telefone>INVALIDO</telefone>
+    <email>carlos.mendes@example.com</email>
+    <data_consulta>2025-09-18</data_consulta>
+    <especialidade>oftalmologia</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>5</id_paciente>
+    <nome>Rita Santos</nome>
+    <nif>999888777</nif>
+    <telefone>915678901</telefone>
+    <email>Karolmacedobranco@gmail.com</email>
+    <data_consulta>2025-09-20</data_consulta>
+    <especialidade>dermatologia</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>6</id_paciente>
+    <nome>Pedro Alves</nome>
+    <nif>222333444</nif>
+    <telefone>916789012</telefone>
+    <email>pedro.alves@example.com</email>
+    <data_consulta>2025-09-22</data_consulta>
+    <especialidade>Ortopedia</especialidade>
+  </consulta>
+  <consulta>
+    <id_paciente>7</id_paciente>
+    <nome>Ana Lopes</nome>
+    <nif>872456789</nif>
+    <telefone>912345678</telefone>
+    <email>Ana.Lopes@example.com</email>
+    <data_consulta>2025-09-10</data_consulta>
+    <especialidade>ecografia</especialidade>
+  </consulta>
+  <consulta>
+  <id_paciente>8</id_paciente>
+  <nome>Filipe Barros</nome>
+  <nif>741852963</nif>
+  <telefone>917890123</telefone>
+  <email>filipe.barros@example.com</email>
+  <data_consulta>2025-10-13</data_consulta>
+  <especialidade>Oncologia</especialidade>
+</consulta>
+<consulta>
+  <id_paciente>9</id_paciente>
+  <nome>Cláudia Ferreira</nome>
+  <nif>852963741</nif>
+  <telefone>916543210</telefone>
+  <email>Carolina2005mb@gmail.com</email>
+  <data_consulta>2025-10-11</data_consulta>
+  <especialidade>Hematologia</especialidade>
+</consulta>
+<consulta>
+  <id_paciente>10</id_paciente>
+  <nome>Tiago Fonseca</nome>
+  <nif>789123456</nif>
+  <telefone>919876543</telefone>
+  <email>tiago.fonseca@example.conm</email>
+  <data_consulta>2025-10-01</data_consulta>
+  <especialidade>Pneumologia</especialidade>
+</consulta>
+<consulta>
+        <id_paciente>11</id_paciente>
+        <nome>Helena Neves</nome>
+        <nif>300500600</nif>
+        <telefone>214000100</telefone>
+        <email>helena.neves@mail.com</email>
+        <data_consulta>2023-12-10</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>12</id_paciente>
+        <nome>André Rocha</nome>
+        <nif>300700800</nif>
+        <telefone>969876543</telefone>
+        <email>andre.rocha@mail.com</email>
+        <data_consulta>2026-02-05</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>13</id_paciente>
+        <nome>Joana Pinto</nome>
+        <nif>300800900</nif>
+        <telefone>931234567</telefone>
+        <email>joana.pinto@mail.com</email>
+        <data_consulta>2026-03-10</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>14</id_paciente>
+        <nome>Rui Sousa</nome>
+        <nif>300901000</nif>
+        <telefone>910000000</telefone>
+        <email>rui.sousa@mail.com</email>
+        <data_consulta>2026-04-20</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>15</id_paciente>
+        <nome>Teresa Lima</nome>
+        <nif>301101200</nif>
+        <telefone>966777888</telefone>
+        <email>teresa.lima@mail.com</email>
+        <data_consulta>2026-05-20</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>16</id_paciente>
+        <nome>Vitor Ramos</nome>
+        <nif>301301400</nif>
+        <telefone>921234567</telefone>
+        <email>vitor.ramos@mail.com</email>
+        <data_consulta>2025-10-25</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>17</id_paciente>
+        <nome>Patrícia Silva</nome>
+        <nif>301501600</nif>
+        <telefone>932345678</telefone>
+        <email>patricia.silva@mail.com</email>
+        <data_consulta>2025-11-05</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>18</id_paciente>
+        <nome>Miguel Santos</nome>
+        <nif>301701800</nif>
+        <telefone>NAO_NUMERICO</telefone>
+        <email>miguel.santos@mail.com</email>
+        <data_consulta>2025-11-10</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>19</id_paciente>
+        <nome>Laura Martins</nome>
+        <nif>INV.123</nif>
+        <telefone>924567890</telefone>
+        <email>laura.martins@mail.com</email>
+        <data_consulta>2025-11-15</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>20</id_paciente>
+        <nome>Filipe Azevedo</nome>
+        <nif>302102200</nif>
+        <telefone>935678901</telefone>
+        <email>filipe.azevedo@mail</email>
+        <data_consulta>2025-11-20</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>21</id_paciente>
+        <nome>Catarina Bastos</nome>
+        <nif>302302400</nif>
+        <telefone>966789012</telefone>
+        <email>catarina.bastos@mail.com</email>
+        <data_consulta>2025-12-04</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>22</id_paciente>
+        <nome>David Pereira</nome>
+        <nif>302502600</nif>
+        <telefone>927890123</telefone>
+        <email>david.pereira@mail.com</email>
+        <data_consulta>2025-12-01</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>23</id_paciente>
+        <nome>Inês Ferreira</nome>
+        <nif>302702800</nif>
+        <telefone>938901234</telefone>
+        <email>ines.ferreira@mail.com</email>
+        <data_consulta>2025-12-05</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>24</id_paciente>
+        <nome>Rui Almeida</nome>
+        <nif>302903000</nif>
+        <telefone>969012345</telefone>
+        <email>rui.almeida@mail.com</email>
+        <data_consulta>2025-12-10</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>25</id_paciente>
+        <nome>Marta Teixeira</nome>
+        <nif>303103200</nif>
+        <telefone>920123456</telefone>
+        <email>marta.teixeira@mail.com</email>
+        <data_consulta>2025-12-15</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>26</id_paciente>
+        <nome>Nuno Esteves</nome>
+        <nif>303303400</nif>
+        <telefone>931234567</telefone>
+        <email>nuno.esteves@mail.com</email>
+        <data_consulta>2025-12-20</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>27</id_paciente>
+        <nome>Sara Rodrigues</nome>
+        <nif>303503600</nif>
+        <telefone>962345678</telefone>
+        <email>sara.rodrigues@mail.com</email>
+        <data_consulta>2025-12-25</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>28</id_paciente>
+        <nome>Vasco Cunha</nome>
+        <nif>303703800</nif>
+        <telefone>913456789</telefone>
+        <email>vasco.cunha@mail.com</email>
+        <data_consulta>2026-01-01</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>29</id_paciente>
+        <nome>Clara Gomes</nome>
+        <nif>303904000</nif>
+        <telefone>934567890</telefone>
+        <email>clara.gomes@mail.com</email>
+        <data_consulta>2026-01-05</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>30</id_paciente>
+        <nome>Sérgio Vaz</nome>
+        <nif>304104200</nif>
+        <telefone>965678901</telefone>
+        <email>sergio.vaz@mail.com</email>
+        <data_consulta>2026-01-10</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>31</id_paciente>
+        <nome>Bárbara Cruz</nome>
+        <nif>304304400</nif>
+        <telefone>926789012</telefone>
+        <email>barbara.cruz@mail.com</email>
+        <data_consulta>2026-01-15</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>32</id_paciente>
+        <nome>Hugo Morais</nome>
+        <nif>304504600</nif>
+        <telefone>937890123</telefone>
+        <email>hugo.morais@mail.com</email>
+        <data_consulta>2026-01-20</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>33</id_paciente>
+        <nome>Diana Sousa</nome>
+        <nif>304704800</nif>
+        <telefone>968901234</telefone>
+        <email>diana.sousa@mail.com</email>
+        <data_consulta>2026-01-25</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>34</id_paciente>
+        <nome>Gustavo Pina</nome>
+        <nif>304905000</nif>
+        <telefone>929012345</telefone>
+        <email>gustavo.pina@mail.com</email>
+        <data_consulta>2026-02-01</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>35</id_paciente>
+        <nome>Elsa Ribeiro</nome>
+        <nif>305105200</nif>
+        <telefone>930123456</telefone>
+        <email>elsa.ribeiro@mail.com</email>
+        <data_consulta>2026-02-05</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>36</id_paciente>
+        <nome>Fábio Pires</nome>
+        <nif>305305400</nif>
+        <telefone>961234567</telefone>
+        <email>fabio.pires@mail.com</email>
+        <data_consulta>2026-02-10</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>37</id_paciente>
+        <nome>Isabel Abreu</nome>
+        <nif>305505600</nif>
+        <telefone>922345678</telefone>
+        <email>isabel.abreu@mail.com</email>
+        <data_consulta>2026-02-15</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>38</id_paciente>
+        <nome>Jorge Lopes</nome>
+        <nif>305705800</nif>
+        <telefone>933456789</telefone>
+        <email>jorge.lopes@mail.com</email>
+        <data_consulta>2026-02-20</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>39</id_paciente>
+        <nome>Lúcia Dinis</nome>
+        <nif>305906000</nif>
+        <telefone>964567890</telefone>
+        <email>lucia.dinis@mail.com</email>
+        <data_consulta>2026-02-25</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>40</id_paciente>
+        <nome>Marco Reis</nome>
+        <nif>306106200</nif>
+        <telefone>925678901</telefone>
+        <email>marco.reis@mail.com</email>
+        <data_consulta>2026-03-01</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>41</id_paciente>
+        <nome>Nádia Dias</nome>
+        <nif>306306400</nif>
+        <telefone>936789012</telefone>
+        <email>nadia.dias@mail.com</email>
+        <data_consulta>2026-03-05</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>42</id_paciente>
+        <nome>Octávio Pires</nome>
+        <nif>306506600</nif>
+        <telefone>967890123</telefone>
+        <email>octavio.pires@mail.com</email>
+        <data_consulta>2026-03-10</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>43</id_paciente>
+        <nome>Paula Cruz</nome>
+        <nif>306706800</nif>
+        <telefone>928901234</telefone>
+        <email>paula.cruz@mail.com</email>
+        <data_consulta>2026-03-15</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>44</id_paciente>
+        <nome>Quim Pereira</nome>
+        <nif>306907000</nif>
+        <telefone>939012345</telefone>
+        <email>quim.pereira@mail.com</email>
+        <data_consulta>2026-03-20</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>45</id_paciente>
+        <nome>Rafaela Gomes</nome>
+        <nif>307107200</nif>
+        <telefone>960123456</telefone>
+        <email>rafaela.gomes@mail.com</email>
+        <data_consulta>2026-03-25</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>46</id_paciente>
+        <nome>Sandro Vaz</nome>
+        <nif>307307400</nif>
+        <telefone>921234567</telefone>
+        <email>sandro.vaz@mail.com</email>
+        <data_consulta>2026-04-01</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>47</id_paciente>
+        <nome>Telma Castro</nome>
+        <nif>307507600</nif>
+        <telefone>932345678</telefone>
+        <email>telma.castro@mail.com</email>
+        <data_consulta>2026-04-05</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>48</id_paciente>
+        <nome>Uriel Dinis</nome>
+        <nif>307707800</nif>
+        <telefone>963456789</telefone>
+        <email>uriel.dinis@mail.com</email>
+        <data_consulta>2026-04-10</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>49</id_paciente>
+        <nome>Vânia Lemos</nome>
+        <nif>307908000</nif>
+        <telefone>924567890</telefone>
+        <email>vania.lemos@mail.com</email>
+        <data_consulta>2026-04-15</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>50</id_paciente>
+        <nome>Xavier Silva</nome>
+        <nif>308108200</nif>
+        <telefone>935678901</telefone>
+        <email>xavier.silva@mail.com</email>
+        <data_consulta>2026-04-20</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>51</id_paciente>
+        <nome>Yara Cruz</nome>
+        <nif>308308400</nif>
+        <telefone>966789012</telefone>
+        <email>yara.cruz@mail.com</email>
+        <data_consulta>2026-04-25</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>52</id_paciente>
+        <nome>Zé Simões</nome>
+        <nif>308508600</nif>
+        <telefone>927890123</telefone>
+        <email>ze.simoes@mail.com</email>
+        <data_consulta>2026-05-01</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>53</id_paciente>
+        <nome>Alice Costa</nome>
+        <nif>308708800</nif>
+        <telefone>938901234</telefone>
+        <email>alice.costa@mail.com</email>
+        <data_consulta>2026-05-05</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>54</id_paciente>
+        <nome>Bernardo Lima</nome>
+        <nif>308909000</nif>
+        <telefone>969012345</telefone>
+        <email>bernardo.lima@mail.com</email>
+        <data_consulta>2026-05-10</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>55</id_paciente>
+        <nome>Cecília Dantas</nome>
+        <nif>309109200</nif>
+        <telefone>920123456</telefone>
+        <email>cecilia.dantas@mail.com</email>
+        <data_consulta>2026-05-15</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>56</id_paciente>
+        <nome>Dinis Neves</nome>
+        <nif>309309400</nif>
+        <telefone>931234567</telefone>
+        <email>dinis.neves@mail.com</email>
+        <data_consulta>2026-05-20</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>57</id_paciente>
+        <nome>Eliza Pires</nome>
+        <nif>309509600</nif>
+        <telefone>962345678</telefone>
+        <email>eliza.pires@mail.com</email>
+        <data_consulta>2026-05-25</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>58</id_paciente>
+        <nome>Filipe Cunha</nome>
+        <nif>309709800</nif>
+        <telefone>923456789</telefone>
+        <email>filipe.cunha@mail.com</email>
+        <data_consulta>2026-06-01</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>59</id_paciente>
+        <nome>Glória Reis</nome>
+        <nif>309910000</nif>
+        <telefone>934567890</telefone>
+        <email>gloria.reis@mail.com</email>
+        <data_consulta>2026-06-05</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>60</id_paciente>
+        <nome>Horácio Sousa</nome>
+        <nif>310110200</nif>
+        <telefone>965678901</telefone>
+        <email>horacio.sousa@mail.com</email>
+        <data_consulta>2026-06-10</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>61</id_paciente>
+        <nome>Irene Martins</nome>
+        <nif>310310400</nif>
+        <telefone>926789012</telefone>
+        <email>irene.martins@mail.com</email>
+        <data_consulta>2026-06-15</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>62</id_paciente>
+        <nome>Joel Pires</nome>
+        <nif>310510600</nif>
+        <telefone>937890123</telefone>
+        <email>joel.pires@mail.com</email>
+        <data_consulta>2026-06-20</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>63</id_paciente>
+        <nome>Kátia Lopes</nome>
+        <nif>310710800</nif>
+        <telefone>968901234</telefone>
+        <email>katia.lopes@mail.com</email>
+        <data_consulta>2026-06-25</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>64</id_paciente>
+        <nome>Leonor Dias</nome>
+        <nif>310911000</nif>
+        <telefone>929012345</telefone>
+        <email>leonor.dias@mail.com</email>
+        <data_consulta>2026-07-01</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>65</id_paciente>
+        <nome>Manuel Abreu</nome>
+        <nif>311111200</nif>
+        <telefone>930123456</telefone>
+        <email>manuel.abreu@mail.com</email>
+        <data_consulta>2026-07-05</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>66</id_paciente>
+        <nome>Núria Costa</nome>
+        <nif>311311400</nif>
+        <telefone>961234567</telefone>
+        <email>nuria.costa@mail.com</email>
+        <data_consulta>2026-07-10</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>67</id_paciente>
+        <nome>Óscar Esteves</nome>
+        <nif>311511600</nif>
+        <telefone>922345678</telefone>
+        <email>oscar.esteves@mail.com</email>
+        <data_consulta>2026-07-15</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>68</id_paciente>
+        <nome>Patrícia Gomes</nome>
+        <nif>311711800</nif>
+        <telefone>933456789</telefone>
+        <email>patricia.gomes@mail.com</email>
+        <data_consulta>2026-07-20</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>69</id_paciente>
+        <nome>Quitéria Silva</nome>
+        <nif>311912000</nif>
+        <telefone>964567890</telefone>
+        <email>quiteria.silva@mail.com</email>
+        <data_consulta>2026-07-25</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>70</id_paciente>
+        <nome>Ramiro Pires</nome>
+        <nif>312112200</nif>
+        <telefone>925678901</telefone>
+        <email>ramiro.pires@mail.com</email>
+        <data_consulta>2026-08-01</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>71</id_paciente>
+        <nome>Susana Martins</nome>
+        <nif>312312400</nif>
+        <telefone>936789012</telefone>
+        <email>susana.martins@mail.com</email>
+        <data_consulta>2026-08-05</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>72</id_paciente>
+        <nome>Tomás Neves</nome>
+        <nif>312512600</nif>
+        <telefone>967890123</telefone>
+        <email>tomas.neves@mail.com</email>
+        <data_consulta>2026-08-10</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>73</id_paciente>
+        <nome>Ulisses Sousa</nome>
+        <nif>312712800</nif>
+        <telefone>928901234</telefone>
+        <email>ulisses.sousa@mail.com</email>
+        <data_consulta>2026-08-15</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>74</id_paciente>
+        <nome>Verónica Santos</nome>
+        <nif>312913000</nif>
+        <telefone>939012345</telefone>
+        <email>veronica.santos@mail.com</email>
+        <data_consulta>2026-08-20</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>75</id_paciente>
+        <nome>Wilson Dinis</nome>
+        <nif>313113200</nif>
+        <telefone>960123456</telefone>
+        <email>wilson.dinis@mail.com</email>
+        <data_consulta>2026-08-25</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>76</id_paciente>
+        <nome>Xana Ferreira</nome>
+        <nif>313313400</nif>
+        <telefone>921234567</telefone>
+        <email>xana.ferreira@mail.com</email>
+        <data_consulta>2026-09-01</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>77</id_paciente>
+        <nome>Yolanda Alves</nome>
+        <nif>313513600</nif>
+        <telefone>932345678</telefone>
+        <email>yolanda.alves@mail.com</email>
+        <data_consulta>2026-09-05</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>78</id_paciente>
+        <nome>Zara Lima</nome>
+        <nif>313713800</nif>
+        <telefone>963456789</telefone>
+        <email>zara.lima@mail.com</email>
+        <data_consulta>2026-09-10</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>79</id_paciente>
+        <nome>André Morais</nome>
+        <nif>313914000</nif>
+        <telefone>924567890</telefone>
+        <email>andre.morais@mail.com</email>
+        <data_consulta>2026-09-15</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>80</id_paciente>
+        <nome>Beatriz Pina</nome>
+        <nif>314114200</nif>
+        <telefone>935678901</telefone>
+        <email>beatriz.pina@mail.com</email>
+        <data_consulta>2026-09-20</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>81</id_paciente>
+        <nome>Carla Ribeiro</nome>
+        <nif>314314400</nif>
+        <telefone>966789012</telefone>
+        <email>carla.ribeiro@mail.com</email>
+        <data_consulta>2026-09-25</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>82</id_paciente>
+        <nome>Diogo Martins</nome>
+        <nif>314514600</nif>
+        <telefone>927890123</telefone>
+        <email>diogo.martins@mail.com</email>
+        <data_consulta>2026-10-01</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>83</id_paciente>
+        <nome>Eva Soares</nome>
+        <nif>314714800</nif>
+        <telefone>938901234</telefone>
+        <email>eva.soares@mail.com</email>
+        <data_consulta>2026-10-05</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>84</id_paciente>
+        <nome>Gonçalo Teixeira</nome>
+        <nif>314915000</nif>
+        <telefone>969012345</telefone>
+        <email>goncalo.teixeira@mail.com</email>
+        <data_consulta>2026-10-10</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>85</id_paciente>
+        <nome>Helena Vaz</nome>
+        <nif>315115200</nif>
+        <telefone>920123456</telefone>
+        <email>helena.vaz@mail.com</email>
+        <data_consulta>2026-10-15</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>86</id_paciente>
+        <nome>Inácio Pires</nome>
+        <nif>315315400</nif>
+        <telefone>931234567</telefone>
+        <email>inacio.pires@mail.com</email>
+        <data_consulta>2026-10-20</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>87</id_paciente>
+        <nome>Júlia Cruz</nome>
+        <nif>315515600</nif>
+        <telefone>962345678</telefone>
+        <email>julia.cruz@mail.com</email>
+        <data_consulta>2026-10-25</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>88</id_paciente>
+        <nome>Luís Santos</nome>
+        <nif>315715800</nif>
+        <telefone>923456789</telefone>
+        <email>luis.santos@mail.com</email>
+        <data_consulta>2026-11-01</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>89</id_paciente>
+        <nome>Mónica Dias</nome>
+        <nif>315916000</nif>
+        <telefone>934567890</telefone>
+        <email>monica.dias@mail.com</email>
+        <data_consulta>2026-11-05</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>90</id_paciente>
+        <nome>Nuno Ferreira</nome>
+        <nif>316116200</nif>
+        <telefone>965678901</telefone>
+        <email>nuno.ferreira@mail.com</email>
+        <data_consulta>2026-11-10</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>91</id_paciente>
+        <nome>Olga Pereira</nome>
+        <nif>316316400</nif>
+        <telefone>926789012</telefone>
+        <email>olga.pereira@mail.com</email>
+        <data_consulta>2026-11-15</data_consulta>
+        <especialidade>Ortopedia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>92</id_paciente>
+        <nome>Pedro Costa</nome>
+        <nif>316516600</nif>
+        <telefone>937890123</telefone>
+        <email>pedro.costa@mail.com</email>
+        <data_consulta>2026-11-20</data_consulta>
+        <especialidade>Oftalmologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>93</id_paciente>
+        <nome>Rita Lopes</nome>
+        <nif>316716800</nif>
+        <telefone>968901234</telefone>
+        <email>rita.lopes@mail.com</email>
+        <data_consulta>2026-11-25</data_consulta>
+        <especialidade>Neurologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>94</id_paciente>
+        <nome>Tiago Sousa</nome>
+        <nif>316917000</nif>
+        <telefone>929012345</telefone>
+        <email>tiago.sousa@mail.com</email>
+        <data_consulta>2026-12-01</data_consulta>
+        <especialidade>Pediatria</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>95</id_paciente>
+        <nome>Sofia Alves</nome>
+        <nif>317117200</nif>
+        <telefone>930123456</telefone>
+        <email>sofia.alves@mail.com</email>
+        <data_consulta>2026-12-05</data_consulta>
+        <especialidade>Cardiologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>96</id_paciente>
+        <nome>Ricardo Martins</nome>
+        <nif>317317400</nif>
+        <telefone>961234567</telefone>
+        <email>ricardo.martins@mail.com</email>
+        <data_consulta>2026-12-10</data_consulta>
+        <especialidade>Ginecologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>97</id_paciente>
+        <nome>Paula Vieira</nome>
+        <nif>317517600</nif>
+        <telefone>922345678</telefone>
+        <email>paula.vieira@mail.com</email>
+        <data_consulta>2026-12-15</data_consulta>
+        <especialidade>Otorrino</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>98</id_paciente>
+        <nome>Manuel Correia</nome>
+        <nif>317717800</nif>
+        <telefone>933456789</telefone>
+        <email>manuel.correia@mail.com</email>
+        <data_consulta>2026-12-20</data_consulta>
+        <especialidade>Fisioterapia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>99</id_paciente>
+        <nome>Luísa Abreu</nome>
+        <nif>317918000</nif>
+        <telefone>964567890</telefone>
+        <email>luisa.abreu@mail.com</email>
+        <data_consulta>2026-12-25</data_consulta>
+        <especialidade>Dermatologia</especialidade>
+    </consulta>
+    <consulta>
+        <id_paciente>100</id_paciente>
+        <nome>Inês Sousa</nome>
+        <nif>318118200</nif>
+        <telefone>925678901</telefone>
+        <email>ines.sousa@mail.com</email>
+        <data_consulta>2027-01-01</data_consulta>
+        <especialidade>Gastroenterologia</especialidade>
+    </consulta>
+
+</consultas>

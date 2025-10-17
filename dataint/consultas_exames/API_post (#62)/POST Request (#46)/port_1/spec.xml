@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="4"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="paciente_eventos"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="[{&quot;id_paciente&quot;:&quot;2&quot;,&quot;name_hash&quot;:&quot;2a194af05072ddbbe7e3e1a99204b00aae09081f9ef56f408d57f6cbe427749e&quot;,&quot;nif_hash&quot;:&quot;8a9bcf1e51e812d0af8465a8dbcc9f741064bf0af3b3d08e6b0246437c19f7fb&quot;,&quot;telefone&quot;:&quot;913456789&quot;,&quot;email_hash&quot;:&quot;7ca386f384e50c27edc89a0a6c07e38196d7c27899671c7cbd81350489f4ba70&quot;,&quot;data_consulta&quot;:&quot;2025-09-12&quot;,&quot;especialidade&quot;:&quot;Neurologia&quot;,&quot;tipo_exame&quot;:&quot;Ressonancia&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-09-13&quot;},{&quot;id_paciente&quot;:&quot;2&quot;,&quot;name_hash&quot;:&quot;2a194af05072ddbbe7e3e1a99204b00aae09081f9ef56f408d57f6cbe427749e&quot;,&quot;nif_hash&quot;:&quot;8a9bcf1e51e812d0af8465a8dbcc9f741064bf0af3b3d08e6b0246437c19f7fb&quot;,&quot;telefone&quot;:&quot;913456789&quot;,&quot;email_hash&quot;:&quot;7ca386f384e50c27edc89a0a6c07e38196d7c27899671c7cbd81350489f4ba70&quot;,&quot;data_consulta&quot;:&quot;2025-09-12&quot;,&quot;especialidade&quot;:&quot;Neurologia&quot;,&quot;tipo_exame&quot;:&quot;Eeg&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-09-14&quot;},{&quot;id_paciente&quot;:&quot;5&quot;,&quot;name_hash&quot;:&quot;da006d5e6dcdbe31785d199e584a3439c57e7b408ab2dfbe33a5058c3fff7b54&quot;,&quot;nif_hash&quot;:&quot;7c351c3ca3e9548e65865797051140f91b3e548eb23ec7ca6cef0a2614a745a2&quot;,&quot;telefone&quot;:&quot;915678901&quot;,&quot;email_hash&quot;:&quot;a9771cc5899900b6854ca5354a139e82db6af1be2129ac259fb86142f1ddbfce&quot;,&quot;data_consulta&quot;:&quot;2025-09-20&quot;,&quot;especialidade&quot;:&quot;Dermatologia&quot;,&quot;tipo_exame&quot;:&quot;Raiox&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-09-21&quot;},{&quot;id_paciente&quot;:&quot;7&quot;,&quot;name_hash&quot;:&quot;00689ce387ae98eb6fcf1cc937fbf451b7d833c3210db43bbc6401300a24a747&quot;,&quot;nif_hash&quot;:&quot;f8d6b17ae6cf359049ecb690bd4850df3a4e5f1db58dd7b469c270fcd4d84f5b&quot;,&quot;telefone&quot;:&quot;912345678&quot;,&quot;email_hash&quot;:&quot;67a3960aea6499dd47704b2c6ca3c0018a86eecc05727ff045c5fb7d9f99bc59&quot;,&quot;data_consulta&quot;:&quot;2025-09-10&quot;,&quot;especialidade&quot;:&quot;Ecografia&quot;,&quot;tipo_exame&quot;:&quot;Urina&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-09-15&quot;},{&quot;id_paciente&quot;:&quot;8&quot;,&quot;name_hash&quot;:&quot;7697f2aaaab32aa215f4c2ec604337ea5451d5b58251fd9b68af914ac60f40ff&quot;,&quot;nif_hash&quot;:&quot;a5b810a3190a39033de4d82052fdf6f4c9765516d6b7eeb0c496adf8a3d3efc9&quot;,&quot;telefone&quot;:&quot;917890123&quot;,&quot;email_hash&quot;:&quot;52524964682c6d3b838329af99d402d630465fd8a5fbbfa27ae724a27cd088ec&quot;,&quot;data_consulta&quot;:&quot;2025-10-13&quot;,&quot;especialidade&quot;:&quot;Oncologia&quot;,&quot;tipo_exame&quot;:&quot;Tomografia&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-10-14&quot;},{&quot;id_paciente&quot;:&quot;9&quot;,&quot;name_hash&quot;:&quot;5872e0b17a27d0b9e603521406698e3f5f96b2736c8cb8f8d20f45ded81ad4a5&quot;,&quot;nif_hash&quot;:&quot;18b2e589c6270d9b1b31ed753252738b42cbe6bd510868d8733d2527d4715bba&quot;,&quot;telefone&quot;:&quot;916543210&quot;,&quot;email_hash&quot;:&quot;dd99d9e496a3797b0e409f3f86debf04b8823d4599db490ebe346d7dd05862b6&quot;,&quot;data_consulta&quot;:&quot;2025-10-11&quot;,&quot;especialidade&quot;:&quot;Hematologia&quot;,&quot;tipo_exame&quot;:&quot;Hemograma&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-10-12&quot;},{&quot;id_paciente&quot;:&quot;12&quot;,&quot;name_hash&quot;:&quot;9078462d4ff48cdaa93b3b08a3246a70066c8780b9aef2799442b4f1f0a693dd&quot;,&quot;nif_hash&quot;:&quot;f62eb3442af4799ceb917e463b9244e5f0ab7ed20561a398948308894e99c4fa&quot;,&quot;telefone&quot;:&quot;969876543&quot;,&quot;email_hash&quot;:&quot;6749f459a2459d0818b4e54b39f7d8e6e26dc23c90d821a151ffb47f5c91b86c&quot;,&quot;data_consulta&quot;:&quot;2026-02-05&quot;,&quot;especialidade&quot;:&quot;Ortopedia&quot;,&quot;tipo_exame&quot;:&quot;Hemograma&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-10-12&quot;},{&quot;id_paciente&quot;:&quot;13&quot;,&quot;name_hash&quot;:&quot;a2fef91ae564ac6f87061d2fab16c4b7ab8af874803fe0db650c42fb05520164&quot;,&quot;nif_hash&quot;:&quot;9f2991f9e3230ec15a8f9ed5513f6255d74b987d22df80106b7f9f257e01d1a0&quot;,&quot;telefone&quot;:&quot;931234567&quot;,&quot;email_hash&quot;:&quot;b1b4249acf795a84d1332583b5878b8751fb7600ac6ee7eaf74edb064fa15f89&quot;,&quot;data_consulta&quot;:&quot;2026-03-10&quot;,&quot;especialidade&quot;:&quot;Gastroenterologia&quot;,&quot;tipo_exame&quot;:&quot;Raiox&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-10-15&quot;},{&quot;id_paciente&quot;:&quot;14&quot;,&quot;name_hash&quot;:&quot;0247278742bd6895a1fbfc7b220b3231903b4ff0fb03bc189910e0ae1dec30a6&quot;,&quot;nif_hash&quot;:&quot;b1e08d452b97c6b73889c3743353871ed557cde57137ce4dbf7a49e710e48ff3&quot;,&quot;telefone&quot;:&quot;910000000&quot;,&quot;email_hash&quot;:&quot;6c73156198df85f093aa6e340fcfbe6898e39d6c947132fcba753a21e3cd36d6&quot;,&quot;data_consulta&quot;:&quot;2026-04-20&quot;,&quot;especialidade&quot;:&quot;Cardiologia&quot;,&quot;tipo_exame&quot;:&quot;Sangue&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-10-18&quot;},{&quot;id_paciente&quot;:&quot;15&quot;,&quot;name_hash&quot;:&quot;cb35ede3f4681661a0c8c00457f83b96ad484ec80b48562ad5f65aa786ba42b0&quot;,&quot;nif_hash&quot;:&quot;b6a1fb948032b6c56f2a52446617e741b74e9965be467e8faf9538d3786b5dbc&quot;,&quot;telefone&quot;:&quot;966777888&quot;,&quot;email_hash&quot;:&quot;1e852250ee6054d4b1a37c286bf7ffc4f91343d9ec177d8fa604866d8cde9ca9&quot;,&quot;data_consulta&quot;:&quot;2026-05-20&quot;,&quot;especialidade&quot;:&quot;Oftalmologia&quot;,&quot;tipo_exame&quot;:&quot;Ressonancia&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-10-22&quot;},{&quot;id_paciente&quot;:&quot;16&quot;,&quot;name_hash&quot;:&quot;410317267ff672438fa77b649f2c31428927d11212417444eeddf947cf3c4196&quot;,&quot;nif_hash&quot;:&quot;cf5deaa8631bbfa1ffc1d0df5e832312e2922462662c94ea876e2dff0f59c30c&quot;,&quot;telefone&quot;:&quot;921234567&quot;,&quot;email_hash&quot;:&quot;78167d3216d6cb0089aeecfbf0a5444c2c4b0df9a75a1c33804e8c79238a4c91&quot;,&quot;data_consulta&quot;:&quot;2025-10-25&quot;,&quot;especialidade&quot;:&quot;Neurologia&quot;,&quot;tipo_exame&quot;:&quot;Urina&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2025-10-25&quot;},{&quot;id_paciente&quot;:&quot;17&quot;,&quot;name_hash&quot;:&quot;f5ef1ebe246d8fd5409b4f1f6b19526dd552f1295bf4eb327711ee249e00f952&quot;,&quot;nif_hash&quot;:&quot;2357fd96a7585f2f4f56d3781ae6f31d37af6260a4360edd011244cba76e36f9&quot;,&quot;telefone&quot;:&quot;932345678&quot;,&quot;email_hash&quot;:&quot;1ed534851c35b8a373b2a2b3445186814e8546bd21f433e7c51a16748752170d&quot;,&quot;data_consulta&quot;:&quot;2025-11-05&quot;,&quot;especialidade&quot;:&quot;Pediatria&quot;,&quot;tipo_exame&quot;:&quot;Oftalmologico&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2025-10-28&quot;},{&quot;id_paciente&quot;:&quot;21&quot;,&quot;name_hash&quot;:&quot;6b864bfc5ca58672cf55e770ce9d2a0f4ebf828faf636e7d0c6e1a3c49bd3e72&quot;,&quot;nif_hash&quot;:&quot;60d15a5c12e44e5793642b6d3df90e4067228b6a887ae75e923c578151711431&quot;,&quot;telefone&quot;:&quot;966789012&quot;,&quot;email_hash&quot;:&quot;226c57ca023cbbf67ea5b54dc5a617afca4a7d96281bfa223c794441d6c19a62&quot;,&quot;data_consulta&quot;:&quot;2025-12-04&quot;,&quot;especialidade&quot;:&quot;Fisioterapia&quot;,&quot;tipo_exame&quot;:&quot;Ecografia&quot;,&quot;resultado&quot;:&quot;Normal&quot;,&quot;data_exame&quot;:&quot;2026-06-01&quot;},{&quot;id_paciente&quot;:&quot;23&quot;,&quot;name_hash&quot;:&quot;519bd30bba3cc7b7df1c5649d110695d203c70203b7f7547da4ecc6a7bd6b95c&quot;,&quot;nif_hash&quot;:&quot;906534b8f6d5081041787177a793f06b589b8625c376d650ad318bb7c5cc1c2e&quot;,&quot;telefone&quot;:&quot;938901234&quot;,&quot;email_hash&quot;:&quot;86027a0097145db4ddf8fa670e9538c3d455bd901711734a21ffceef7bd10308&quot;,&quot;data_consulta&quot;:&quot;2025-12-05&quot;,&quot;especialidade&quot;:&quot;Gastroenterologia&quot;,&quot;tipo_exame&quot;:&quot;Mri&quot;,&quot;resultado&quot;:&quot;Alterado&quot;,&quot;data_exame&quot;:&quot;2024-01-01&quot;}]"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="Status"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="200"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="200"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_2">
+        <entry key="column_name" type="xstring" value="Content type"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="application/json; charset=utf-8"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_3">
+        <entry key="column_name" type="xstring" value="paciente_eventos (#1)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+        </config>
+        <config key="column_domain"/>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="dbTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dbmetadata"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="dbTable">
+            <entry key="database" type="xstring" value=""/>
+            <entry key="schema" type="xstring" value="dbo"/>
+            <entry key="table" type="xstring" value="paciente_eventos"/>
+        </config>
+        <config key="TempTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="TempTable" type="xboolean" value="true"/>
+        <config key="IfTableExists_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="IfTableExists" type="xstring" value="REPLACE"/>
+        <config key="UseDynamicSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="UseDynamicSettings" type="xboolean" value="true"/>
+        <config key="AdditionalOptions_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AdditionalOptions" type="xstring" value=""/>
+        <config key="Keys"/>
+        <config key="Columns">
+            <config key="Column0">
+                <entry key="columnName" type="xstring" value="id_paciente"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column1">
+                <entry key="columnName" type="xstring" value="name_hash"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column2">
+                <entry key="columnName" type="xstring" value="nif_hash"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column3">
+                <entry key="columnName" type="xstring" value="telefone"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column4">
+                <entry key="columnName" type="xstring" value="email_hash"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column5">
+                <entry key="columnName" type="xstring" value="data_consulta"/>
+                <entry key="sqlType" type="xstring" value="DATE"/>
+                <entry key="sqlTypeString" type="xstring" value="date"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column6">
+                <entry key="columnName" type="xstring" value="especialidade"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column7">
+                <entry key="columnName" type="xstring" value="tipo_exame"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column8">
+                <entry key="columnName" type="xstring" value="resultado"/>
+                <entry key="sqlType" type="xstring" value="VARCHAR"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(255)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column9">
+                <entry key="columnName" type="xstring" value="data_exame_iso"/>
+                <entry key="sqlType" type="xstring" value="DATE"/>
+                <entry key="sqlTypeString" type="xstring" value="date"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="NameBasedKeys"/>
+        <config key="KnimeBasedTypeMapping"/>
+        <config key="NameBasedTypeMapping"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.utility.tablecreator.DBTableCreateNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="DB Table Creator"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.7.0.v202509020929"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.7.0.v202509020929"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="KNIME Data Table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="DB Input">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+        <config key="DB Output">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="DB Table Creator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 14, Cols: 10"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBSessionPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Microsoft SQL Server f59c0ad7-1e66-4e3e-bf0d-6caf687444ca"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="c88cadf4-09d2-42ca-8cf8-65e92efb3822"/>
+    </config>
+</config>
