@@ -105,7 +105,7 @@ tp01_27983/
 |------------|------------|
 | **doc/** | Contém o relatório completo do trabalho.|
 | **dataint/** | Diretório com os workflows KNIME do projeto: `consulta_exames` (processo ETL principal) e `email` (envio automático de notificações).|
-| **data/input/** | Ficheiros originais de dados — consultas (XML) e exames (CSV). |
+| **data/input/** | Ficheiros originais de dados - consultas (XML) e exames (CSV). |
 | **data/output/** | Resultados finais do processo ETL, incluindo dados aceites, rejeitados. |
 | **data/output/aceites/** | Contém o ficheiro com registos válidos (`aceites.csv`). |
 | **data/output/rejeitados/** | Armazena registos rejeitados durante a validação (`rejeitados.csv`). |
@@ -154,10 +154,9 @@ Antes de executar, deve garantir que a base de dados e tabela de destino está c
 ---
 
 ## 🧑‍💻 Observações Finais
-- Todos os caminhos de ficheiros foram configurados de forma **relativa**, facilitando a portabilidade do projeto.  
-- Caso surjam erros de leitura ou escrita, verificar permissões de pasta e encoding dos ficheiros de entrada.  
+- Todos os caminhos de ficheiros foram configurados de forma **relativa**, facilitando a portabilidade do projeto.   
 - O ficheiro PDF na pasta `doc/` contém explicações detalhadas do processo, fluxos e prints das transformações realizadas.
-
+- A funcionalidade de registo de logs não foi implementada nos workflows, apesar da existência da pasta `logs/`.
 ---
 
 📅 **Data:** Outubro de 2025
