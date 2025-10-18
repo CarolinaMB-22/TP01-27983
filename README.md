@@ -72,6 +72,7 @@ tp01_27983/
 ├── README.md → Ficheiro de descrição do projeto 
 │
 ├── doc/
+| ├── Dashboard → Graficos dos dados SQL
 │ └── 27964_27983_doc.pdf → Documento do relatório do trabalho 
 │
 ├── dataint/
