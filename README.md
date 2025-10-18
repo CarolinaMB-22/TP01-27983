@@ -21,8 +21,7 @@ O processo integra, transforma e carrega dados de **marcações de consultas mé
 
 O trabalho inclui também:
 - **Simulação de comunicação com uma API externa (HTTP POST)**;  
-- **Envio automático de notificações por e-mail**;  
-- **Geração de logs automáticos**;  
+- **Envio automático de notificações por e-mail**;   
 - **Separação de registos rejeitados e aceites**.  
 
 ---
@@ -39,7 +38,7 @@ O trabalho inclui também:
    Tratamento e normalização dos dados, incluindo:  
    - Limpeza e normalização de colunas (uso de `String Manipulation` e `Column Expressions`).  
    - Validação de campos com **expressões regulares** (NIF, telefone, e-mail).  
-   - Filtragem de registos inválidos, exportando-os para `data/output/rejeitados/rejeitados.csv`. 
+   - Filtragem de registos inválidos, exportando-os para `data/output/rejeitados.csv`. 
    - Junção das tabelas de consultas e exames (`Joiner`) por `id_paciente`. 
    - Anonimização de dados sensíveis (nome, e-mail, NIF) com **hash SHA-256** através do nó `Java Snippet`.  
 
@@ -60,16 +59,9 @@ O trabalho inclui também:
    Os e-mails incluem o tipo de exame, resultado e data.
 
 5. **Exportação JSON:**  
-   A tabela final `paciente_eventos` é exportada em formato **JSON** para `data/output/row1/row1.json`,  
+   A tabela final `paciente_eventos` é exportada em formato **JSON** para `data/output/row1.json`,  
    permitindo a partilha estruturada dos dados com sistemas externos ou simulação de integração via API.
 
-6. **Geração de Logs:**  
-   Implementado registo automático de logs de execução através dos nós:  
-   - `Date&Time Range Creator` (timestamp)  
-   - `Table Creator` (mensagens)  
-   - `Concatenate`  
-   - `CSV Writer` (modo *append*)  
-   O ficheiro resultante (`etl.log`) é armazenado em `data/output/logs/`.
 
 ---
 
@@ -113,7 +105,7 @@ tp01_27983/
 | **doc/** | Contém o relatório completo do trabalho.|
 | **dataint/** | Diretório com os workflows KNIME do projeto: `consulta_exames` (processo ETL principal) e `email` (envio automático de notificações).|
 | **data/input/** | Ficheiros originais de dados — consultas (XML) e exames (CSV). |
-| **data/output/** | Resultados finais do processo ETL, incluindo dados aceites, rejeitados, logs e exportações. |
+| **data/output/** | Resultados finais do processo ETL, incluindo dados aceites, rejeitados. |
 | **data/output/aceites/** | Contém o ficheiro com registos válidos (`aceites.csv`). |
 | **data/output/rejeitados/** | Armazena registos rejeitados durante a validação (`rejeitados.csv`). |
 | **data/output/logs/** | Ficheiro `etl.log` com registo cronológico da execução do processo. |
@@ -126,8 +118,7 @@ tp01_27983/
 ### 📑 Observações
 
 - O **workflow principal** (`consulta_exames/`) realiza todas as etapas ETL: extração, transformação, validação, anonimização e armazenamento dos dados.  
-- O **workflow `email/`** é responsável pelo envio automático de notificações personalizadas a pacientes com resultados disponíveis.  
-- O ficheiro **`etl.log`** é gerado automaticamente a cada execução, contendo informações de estado e número de registos processados.  
+- O **workflow `email/`** é responsável pelo envio automático de notificações personalizadas a pacientes com resultados disponíveis.    
 - A exportação **`row1.json`** contém a tabela final `paciente_eventos`, permitindo a partilha estruturada dos dados com sistemas externos ou APIs.  
 - As pastas **`aceites/`** e **`rejeitados/`** distinguem claramente os registos válidos dos inválidos.  
 - A pasta **`tables/`** fornece os dados auxiliares necessários ao envio automatizado de e-mails.  

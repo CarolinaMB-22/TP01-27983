@@ -3,30 +3,14 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="1"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="resultado"/>
+        <entry key="column_name" type="xstring" value="id_paciente"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
             <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
         </config>
-        <config key="column_domain">
-            <config key="possible_values">
-                <entry key="array-size" type="xint" value="2"/>
-                <config key="0">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Normal"/>
-                    </config>
-                </config>
-                <config key="1">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Alterado"/>
-                    </config>
-                </config>
-            </config>
-        </config>
+        <config key="column_domain"/>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>

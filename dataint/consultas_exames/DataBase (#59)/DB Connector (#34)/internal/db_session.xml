@@ -2,7 +2,7 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
     <config key="Session Info">
         <entry key="version" type="xint" value="7"/>
-        <entry key="sessionID" type="xstring" value="f59c0ad7-1e66-4e3e-bf0d-6caf687444ca"/>
+        <entry key="sessionID" type="xstring" value="9c166d1d-cbed-44bb-a5c6-c23eca9325ff"/>
         <entry key="dbTypeId" type="xstring" value="mssqlserver"/>
         <entry key="dialectId" type="xstring" value="mssqlserver"/>
         <entry key="dbURL" type="xstring" value="jdbc:jtds:sqlserver://localhost:1433/ETL_TP1"/>

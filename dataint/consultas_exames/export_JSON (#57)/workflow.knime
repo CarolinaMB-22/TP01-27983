@@ -101,6 +101,15 @@
             <entry key="destID" type="xint" value="2"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="1"/>
+                <config key="extrainfo.conn.bendpoints_0">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xint" value="293"/>
+                    <entry key="1" type="xint" value="-318"/>
+                </config>
+            </config>
         </config>
     </config>
     <config key="workflow_editor_settings">
