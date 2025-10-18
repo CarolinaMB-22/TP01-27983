@@ -152,6 +152,10 @@ Antes de executar, deve garantir que a base de dados e tabela de destino está c
 
 
 ---
+## Video
+- https://qrto.org/OhMyFD
+
+---
 
 ## 🧑‍💻 Observações Finais
 - Todos os caminhos de ficheiros foram configurados de forma **relativa**, facilitando a portabilidade do projeto.   
