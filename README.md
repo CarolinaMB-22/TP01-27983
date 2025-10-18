@@ -139,8 +139,8 @@ tp01_27983/
 4. Verificar os caminhos relativos das entradas e saídas:
 - Entrada: `data/input/`
 - Saída: `data/output/`
-4. Executar o workflow ao carregar no botão **Execute all**.
-5. Após a execução, verificar os ficheiros gerados em `data/output/`.
+5. Executar o workflow ao carregar no botão **Execute all**.
+6. Após a execução, verificar os ficheiros gerados em `data/output/`.
 
 ### 3. Confuguração da Base de Dados:
 
